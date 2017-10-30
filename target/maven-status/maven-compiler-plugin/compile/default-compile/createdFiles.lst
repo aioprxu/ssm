@@ -1,0 +1,5 @@
+com\aiopr\controller\CategoryController.class
+com\aiopr\mapper\CategoryMapper.class
+com\aiopr\service\CategoryServiceImpl.class
+com\aiopr\pojo\Category.class
+com\aiopr\service\CategoryService.class
