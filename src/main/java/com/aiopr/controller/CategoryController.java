@@ -31,6 +31,10 @@ public class CategoryController {
     public ModelAndView listCategory(){
         ModelAndView mav = new ModelAndView();
         List<Category> cs= categoryService.list();
+        categoryService.delete(6);
+        categoryService.delete(7);
+        categoryService.delete(8);
+        categoryService.delete(9);
 
         // 放入转发参数
         mav.addObject("cs", cs);
@@ -39,10 +43,15 @@ public class CategoryController {
         return mav;
     }
 
-    @RequestMapping(value = "/login",method = RequestMethod.GET)
-    public String getCategory(Category category){
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    public ModelAndView getCategory(Category category){
         categoryService.add(category);
         System.out.println(category.toString());
-        return "/listCategory";
+        return new ModelAndView("redirect:/listCategory");
+    }
+
+    @RequestMapping(value = "/test")
+    public void test(){
+
     }
 }

@@ -27,5 +27,7 @@ public class CategoryServiceImpl implements CategoryService {
         categoryMapper.add(category.getName());
     }
 
-
+    public void delete(Integer id){
+        categoryMapper.delete(id);
+    }
 }

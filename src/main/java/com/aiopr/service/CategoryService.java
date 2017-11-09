@@ -9,4 +9,5 @@ import java.util.List;
 public interface CategoryService {
     List<Category> list();
     void add(Category category);
+    void delete(Integer id);
 }
