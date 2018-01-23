@@ -1,5 +1,7 @@
 com\aiopr\controller\CategoryController.class
 com\aiopr\mapper\CategoryMapper.class
-com\aiopr\service\CategoryServiceImpl.class
 com\aiopr\pojo\Category.class
+com\aiopr\TransientTest.class
+com\aiopr\service\CategoryServiceImpl.class
+com\aiopr\ThreadTest.class
 com\aiopr\service\CategoryService.class

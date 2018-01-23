@@ -1,40 +1,45 @@
 package com.aiopr.controller;
 
-import java.util.List;
+import java.util.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.aiopr.service.*;
 import com.aiopr.pojo.Category;
+import java.io.*;
 
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by Administrator on 2017/10/29.
  */
 @Controller
 @RequestMapping("")
-public class CategoryController {
+public class CategoryController extends Thread{
+
+//    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring/applicationContext.xml");
+
     @Autowired
-    private CategoryService categoryService;
-
-
+    private CategoryService categoryService ;//= (CategoryService)applicationContext.getBean("CategoryService");
+    @ModelAttribute
+    public void testCategory(@RequestParam(value = "id")Integer id,Map<String,Object> map){
+        Category category = categoryService.get(id);
+        System.out.println("tset modelattribute category"+category);
+        map.put("category",category);
+    }
 
     @RequestMapping("listCategory")
     public ModelAndView listCategory(){
         ModelAndView mav = new ModelAndView();
         List<Category> cs= categoryService.list();
-        categoryService.delete(6);
-        categoryService.delete(7);
-        categoryService.delete(8);
-        categoryService.delete(9);
+
 
         // 放入转发参数
         mav.addObject("cs", cs);
@@ -45,13 +50,24 @@ public class CategoryController {
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public ModelAndView getCategory(Category category){
-        categoryService.add(category);
+        System.out.println("修改"+category.toString());
+        //categoryService.update(category);
         System.out.println(category.toString());
-        return new ModelAndView("redirect:/listCategory");
+        return new ModelAndView("forward:/listCategory");
     }
 
     @RequestMapping(value = "/test")
-    public void test(){
+    public void test(){}
 
+
+    /*@RequestMapping(value = "/upload")
+    public ModelAndView upload(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        upload.doPost(request,response);
+        return new ModelAndView("redirect:/message");
     }
+
+    @RequestMapping(value = "/message")
+    public void message(){}*/
+
 }

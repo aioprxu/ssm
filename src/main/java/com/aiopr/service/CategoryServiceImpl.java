@@ -14,7 +14,7 @@ import java.util.List;
 @Service("CategoryService")
 public class CategoryServiceImpl implements CategoryService {
 
-    @Autowired
+    @Autowired(required = false)
     private CategoryMapper categoryMapper;
 
 
@@ -30,4 +30,8 @@ public class CategoryServiceImpl implements CategoryService {
     public void delete(Integer id){
         categoryMapper.delete(id);
     }
+
+    public void update(Category category){categoryMapper.update(category);}
+
+    public Category get(Integer id){return categoryMapper.get(id);}
 }
