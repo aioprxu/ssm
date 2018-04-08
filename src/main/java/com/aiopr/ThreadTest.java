@@ -3,25 +3,54 @@ package com.aiopr;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by Administrator on 2017/11/23.
  */
+class Threada implements Runnable{
+    volatile int x = 0;
+    @Override
+    public void run() {
+        System.out.println("hhhh+"+(++x));
+    }
+}
+class Test{
+    Test(){
+        System.out.println("Test loading.....");
+    }
+    static {
+        System.out.println("Static T loading....");
+    }
+    class S{
+        S (){System.out.println("Static S loading....");}
+    }
+}
 public   class ThreadTest {
 
     public static void main(String[] args) {
 
-        int a[] = {0,1,2,0,1,1,2,1,0,1,1,1,1,1,1,1,1,1,1,1,1};
-//        System.out.println(removevalfromArray(a));
-//        int[] b = remove2(a);
- //       threeroadsort(a);
 
-        int b[] = {4,2,23,5,4,1,2,1,0};
-        merge(a,9,b,b.length);
+        System.out.println(
+                1^2
+        );
 
+
+//        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+//        for (int i = 0; i < 10; i++)
+//        cachedThreadPool.execute(new Threada());
+//
+//        cachedThreadPool.shutdown();
+
+        int x= 2;
+        Object O = new Object();
+        O.equals(x);
 
 
     }
+
 
     static void moveZeros(Vector<Integer> a) {
         Vector<Integer> noZero = new Vector<Integer>();

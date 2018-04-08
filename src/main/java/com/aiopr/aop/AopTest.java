@@ -15,9 +15,7 @@ import org.springframework.stereotype.Component;
 import javax.sql.DataSource;
 import java.lang.reflect.Method;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Administrator on 2018/1/20.
@@ -53,7 +51,7 @@ class UserServiceImp implements UserService {
     }
 
     //    ApplicationContext applicationContext = new
-//            ClassPathXmlApplicationContext("spring/applicationContext.xml");
+//            ClassPathXmlApplicationContext("spring/application.xml");
 //    {
 //        user = applicationContext.getBean(User.class);
 //    }
@@ -85,20 +83,56 @@ class loggingAspect{
         System.out.println("-----------after----------");
     }
 }
+class A{
+    private static A single = new A();
+    private A () {}
+    public static A getInstance(){return single;}
+}
 public class AopTest {
 
+    static class listComparator implements Comparator{
 
-    public static void main(String[] args) throws SQLException {
+        private static listComparator single = new listComparator();
 
-        String str = new String();
+        listComparator(){
+            System.out.println("I'm begin");
+        }
 
-        ApplicationContext applicationContext = new FileSystemXmlApplicationContext("classpath:spring/applicationcontext.xml");
-        UserService userService = applicationContext.getBean(UserService.class);
-        UserService userService1 = applicationContext.getBean(UserService.class);
-        if(userService == userService1) System.out.println("单例");
-        else System.out.println("多例");
-        String result = userService.getName(1);
-        System.out.println(result);
+        public synchronized static listComparator getInstance(){
+            System.out.println("hhhh");
+            return listComparator.single;
+        }
+
+        @Override
+        public int compare(Object o1, Object o2) {
+            if(o1==o2)
+                return 0;
+            else return 1;
+        }
+    }
+
+
+    public static void main(String[] args)  {
+
+        List list = new ArrayList();
+
+
+
+        Object[] o = {new Object()};
+        Arrays.sort(o);
+        Collections.sort(list,listComparator.getInstance());
+
+        System.out.println(listComparator.getInstance()==(listComparator.getInstance()));
+
+        System.out.println(A.getInstance()==A.getInstance());
+
+//        ApplicationContext applicationContext = new FileSystemXmlApplicationContext("classpath:spring/applicationcontext.xml");
+//        UserService userService = applicationContext.getBean(UserService.class);
+//        UserService userService1 = applicationContext.getBean(UserService.class);
+//        if(userService == userService1) System.out.println("单例");
+//        else System.out.println("多例");
+//        String result = userService.getName(1);
+//        System.out.println(result);
 //        DataSource dataSource = applicationContext.getBean(DataSource.class);
 //        System.out.println(dataSource.getConnection());
 

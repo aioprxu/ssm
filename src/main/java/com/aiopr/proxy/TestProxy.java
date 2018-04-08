@@ -1,5 +1,6 @@
 package com.aiopr.proxy;
 
+import com.mchange.v1.util.ArrayUtils;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.cglib.proxy.Enhancer;
@@ -14,19 +15,23 @@ import java.util.*;
 /**
  * Created by Administrator on 2018/1/19.
  */
+interface User{
+    public String getName();
+    public Integer getAge();
+}
+class UserService implements User{
 
-class UserService{
-
-    public String getName(int id) {
+    public String getName() {
         System.out.println("-----getname------");
         return "Tom";
     }
 
-    public Integer getAge(int id) {
+    public Integer getAge() {
         System.out.println("------getage------");
         return 10;
     }
 }
+//JDK
 class MyInvocationHandler implements InvocationHandler{
 
     private Object target;
@@ -54,6 +59,7 @@ class MyInvocationHandler implements InvocationHandler{
         }
     }
 }
+//CGLIB
 class MyProxy implements MethodInterceptor {
 
 
@@ -76,10 +82,18 @@ class MyProxy implements MethodInterceptor {
 public class TestProxy {
 
     public static void main(String[] args) throws Exception {
-
-        MyProxy myProxy = MyProxy.class.newInstance();
-        UserService userService = myProxy.getproxy();
-        userService.getName(1);
+        //得到代理类实例
+//        MyProxy myProxy = MyProxy.class.newInstance();
+        //得到动态代理类
+//        UserService userService = myProxy.getproxy();
+        //创建真实对象实例
+        User userService = new UserService();
+        //实现委托分发
+        InvocationHandler invocationHandler = new MyInvocationHandler(userService);
+        //创建代理之后的实例
+        User user = (User)Proxy.newProxyInstance(userService.getClass().getClassLoader(),
+                userService.getClass().getInterfaces(),invocationHandler);
+        user.getName();
 //        int[] a = {1};
 //        int[] b = {1,1};
 //        Solution solution = new Solution();
@@ -87,8 +101,8 @@ public class TestProxy {
 //        for (int i = 0; i < c.length; i++) {
 //            System.out.println(c[i]);
 //        }
-        List list = new ArrayList();
-        list.toArray();
+//        List list = new ArrayList();
+//        list.toArray();
 
     }
 }
@@ -118,4 +132,9 @@ class Solution {
         return nums;
 
     }
+}
+
+
+class T {
+
 }
