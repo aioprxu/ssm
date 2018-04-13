@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.util.Timer;
 
 /**
+ * 回调函数
  * Created by Administrator on 2018/1/22.
  */
 interface Callback{

@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ * 说好的事务测试。。。。我的代码呢？？？
  * Created by Administrator on 2017/11/28.
  */
 public class TransientTest {

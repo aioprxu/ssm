@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.Random;
 
 /**
+ * 软件工程结对编程第二次作业
  * Created by Administrator on 2018/4/12.
  */
 public class Main {

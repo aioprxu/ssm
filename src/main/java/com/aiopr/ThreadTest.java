@@ -8,6 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 线程测试
  * Created by Administrator on 2017/11/23.
  */
 class Threada implements Runnable{

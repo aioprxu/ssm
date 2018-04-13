@@ -1,6 +1,7 @@
 package com.aiopr.customer;
 
 /**
+ * 生产者消费者模式
  * Created by Administrator on 2018/2/3.
  */
 

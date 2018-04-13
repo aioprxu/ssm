@@ -1,7 +1,13 @@
 package com.aiopr;
 
+import com.sun.org.apache.bcel.internal.util.ClassSet;
+import com.sun.xml.internal.ws.message.source.PayloadSourceMessage;
+
 import java.util.*;
 
+/**
+ * 笔试题
+ */
 public class niu {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -161,4 +167,15 @@ class hhh{
     }
 }
 
+class tt{
+    public static tt getclass(){
+        return new tt();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getclass());
+        System.out.println(tt.class);
+        System.out.println();
+    }
+}
 

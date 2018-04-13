@@ -3,6 +3,7 @@ package com.aiopr;
 import java.util.Scanner;
 
 /**
+ * 笔试题
  * Created by Administrator on 2018/3/27.
  */
 public class test {
