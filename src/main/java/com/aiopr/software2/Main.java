@@ -16,11 +16,11 @@ public class Main {
 
     public static String generate(char c,String flag,int max){
         if(flag=="float"){
-            Random random = new Random(1000000);
+            Random random = new Random();
             StringBuilder str = new StringBuilder();
-            str.append(random.nextFloat()*(10000000)%max);
+            str.append(Math.abs((float)random.nextInt()%1000*max)/(max*100));
             str.append(c);
-            str.append(random.nextFloat()*(10000000)%max);
+            str.append(Math.abs((float)random.nextInt()%1000*max)/(max*100));
             return str.toString();
         }
         else if(flag=="int"){
