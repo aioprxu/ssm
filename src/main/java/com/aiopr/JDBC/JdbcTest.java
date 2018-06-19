@@ -11,7 +11,7 @@ import java.util.Vector;
 public class JdbcTest {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //通过反射得到Driver类并注册
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
 //        DriverManager.deregisterDriver(DriverManager.getDriver("com.mysql.jdbc.Driver"));
         //得到数据库连接
         Connection conn = dataSource.DATA_SOURCE.getConnection();

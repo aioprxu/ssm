@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="38fb858c-e04d-427d-be4f-7b707db00461" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,66 +44,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TransientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/TransientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Norecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/Norecursive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/software2/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="930">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpServer.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="173">
+              <caret line="88" column="40" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="40" />
               <folding>
-                <element signature="e#734#1152#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalEchoS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalEchoC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="58" column="85" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssm.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LocalEchoClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalEchoServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2067">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#832#1391#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -131,14 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/pojo/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/service/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cookie.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/message.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/Upload.java" />
@@ -150,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/service/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/socket/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/socket/SocketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/sort/QuickSort.java" />
@@ -158,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/Single/SingleTon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lock/MyLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lock/Main.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -182,6 +208,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelInitService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEcho.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/Client.java" />
       </list>
     </option>
   </component>
@@ -208,8 +244,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,9 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,42 +357,66 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aiopr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.23.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.23.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.23.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.23.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.23.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.23.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.23.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="Client.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="Server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
+              <item name="nettyecho" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,15 +431,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.aiopr.netty" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\ssm\src\main\webapp\WEB-INF" />
       <recent name="D:\git\ssm\src\main\webapp" />
       <recent name="D:\git\ssm\src\main\resources" />
       <recent name="D:\git\ssm\src\main\spring" />
       <recent name="D:\git\ssm\src\main\java" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aiopr.netty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,9 +454,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpServer">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.netty.Client" />
+      <module name="ssm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aiopr.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aiopr.netty.HttpServer" />
@@ -412,24 +480,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.software2.Main" />
+    <configuration name="LocalEchoC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.nettyecho.LocalEchoC" />
       <module name="ssm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aiopr.software2.*" />
+          <option name="PATTERN" value="com.aiopr.nettyecho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Mainn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.Mainn" />
+    <configuration name="LocalEchoS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.nettyecho.LocalEchoS" />
       <module name="ssm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aiopr.*" />
+          <option name="PATTERN" value="com.aiopr.nettyecho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.netty.Server" />
+      <module name="ssm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aiopr.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,28 +520,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="hhh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.hhh" />
-      <module name="ssm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aiopr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.tt" />
-      <module name="ssm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aiopr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
       <option name="arquillianRunConfiguration">
@@ -603,19 +660,19 @@
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Maven.Jetty Debug" />
-      <item itemvalue="Application.Mainn" />
-      <item itemvalue="Application.hhh" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.tt" />
       <item itemvalue="Application.HttpServer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.LocalEchoS" />
+      <item itemvalue="Application.LocalEchoC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.LocalEchoC" />
+        <item itemvalue="Application.LocalEchoS" />
         <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.tt" />
-        <item itemvalue="Application.hhh" />
-        <item itemvalue="Application.Mainn" />
       </list>
     </recent_temporary>
   </component>
@@ -706,12 +763,19 @@
       <workItem from="1523532648534" duration="4674000" />
       <workItem from="1523586092173" duration="5493000" />
       <workItem from="1523698827189" duration="2073000" />
-      <workItem from="1526697605122" duration="1555000" />
+      <workItem from="1526697605122" duration="4006000" />
+      <workItem from="1526901002394" duration="40000" />
+      <workItem from="1526901289317" duration="769000" />
+      <workItem from="1526907699843" duration="39000" />
+      <workItem from="1527397800158" duration="2190000" />
+      <workItem from="1527766329360" duration="928000" />
+      <workItem from="1529389440492" duration="1534000" />
+      <workItem from="1529390987151" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297008000" />
+    <option name="totallyTimeSpent" value="306257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,7 +792,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32908848" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32956153" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32959402" />
@@ -740,23 +804,23 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3274244" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3281471" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31541726" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3274244" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32606438" />
-      <window_info content_ui="combo" x="721" y="222" width="473" height="636" id="Project" order="0" sideWeight="0.4936351" weight="0.21179625" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32531825" />
+      <window_info content_ui="combo" x="721" y="222" width="473" height="636" id="Project" order="0" sideWeight="0.4936351" visible="true" weight="0.23257373" />
       <window_info id="Web" order="3" sideWeight="0.5062893" side_tool="true" weight="0.3301282" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5062893" side_tool="true" weight="0.3301282" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32911393" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3274244" />
     </layout>
@@ -847,7 +911,7 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java</url>
+          <url />
           <line>295</line>
           <properties />
           <option name="timeStamp" value="56" />
@@ -870,38 +934,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/ali.java" />
-    <entry file="file://$PROJECT_DIR$/ssm.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v1/util/ArrayUtils.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/listCategory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMethod.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/controller/CategoryController.java">
@@ -918,13 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -953,13 +978,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Scanner.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/BufferedWriter.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -998,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/customer/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1033,13 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/TransientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1059,19 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/software2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,24 +1073,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelInitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpSessionManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelInitService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.23.Final/netty-codec-http-4.1.23.Final.jar!/io/netty/handler/codec/http/HttpRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1107,23 +1082,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpChannelHandler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.23.Final/netty-transport-4.1.23.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1131,13 +1090,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3799">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/software2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.23.Final/netty-transport-4.1.23.Final.jar!/io/netty/channel/MultithreadEventLoopGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.23.Final/netty-common-4.1.23.Final.jar!/io/netty/util/concurrent/EventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.23.Final/netty-common-4.1.23.Final.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.23.Final/netty-common-4.1.23.Final.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.23.Final/netty-transport-4.1.23.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <element signature="e#734#1152#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/SocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
+          <folding>
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="58" column="85" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="88" column="40" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/netty/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2067">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#832#1391#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
