@@ -1,7 +1,7 @@
 package com.aiopr;
 
 import com.sun.org.apache.bcel.internal.util.ClassSet;
-import com.sun.xml.internal.ws.message.source.PayloadSourceMessage;
+
 
 import java.util.*;
 
@@ -103,6 +103,32 @@ class tes{
     }
 }
 
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+        Map map = new HashMap();
+        List list = new LinkedList();
+
+        int[] nums = new int[nums2.length];
+        int index = 0;
+        for (int i = 0; i < nums1.length; i++) {
+            for (int j = 0; j < nums2.length; j++) {
+                if (nums2[j] == nums1[i]) {
+                    nums2[j] = -1;
+                    nums[index++] = nums1[i];
+                    break;
+                }
+            }
+        }
+        if (nums1.length == 0 || nums2.length == 0)
+            nums = new int[0];
+        int[] result = new int[index];
+        for (int i = 0; i < index; i++) {
+            result[i]=nums[i];
+        }
+        return nums;
+
+    }
+}
 
 class hhh{
     public static void main(String[] args) {
@@ -173,9 +199,7 @@ class tt{
     }
 
     public static void main(String[] args) {
-        System.out.println(getclass());
-        System.out.println(tt.class);
-        System.out.println();
+        System.out.println(UUID.randomUUID());
     }
 }
 

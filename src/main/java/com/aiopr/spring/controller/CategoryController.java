@@ -2,22 +2,21 @@ package com.aiopr.spring.controller;
 
 import java.util.*;
 
+import com.aiopr.redis.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.aiopr.spring.service.*;
 import com.aiopr.spring.pojo.Category;
+import redis.clients.jedis.Jedis;
 
 
 /**
  * Created by Administrator on 2017/10/29.
  */
-@Controller
+@RestController
 @RequestMapping("")
 public class CategoryController extends Thread{
 
@@ -55,7 +54,33 @@ public class CategoryController extends Thread{
     }
 
     @RequestMapping(value = "/test")
-    public void test(){}
+    public Map test(){
+        Jedis jedis = new RedisUtil().getJedis();
+        Set<byte[]> keySet = jedis.keys("*".getBytes());
+        byte[][] keys = keySet.toArray(new byte[keySet.size()][]);
+        // 获取所有value
+        byte[][] values = jedis.mget(keys).toArray(new byte[keySet.size()][]);
+        HashMap map = new HashMap();
+        for(int i = 0; i < keySet.size(); ++i){
+            map.put(byte2hex(keys[i]),byte2hex(values[i]));
+        }
+        return map;
+    }
+
+    private static String byte2hex(byte[] buffer) {
+        String h = "0x";
+
+        for (byte aBuffer : buffer) {
+            String temp = Integer.toHexString(aBuffer & 0xFF);
+            if (temp.length() == 1) {
+                temp = "0" + temp;
+            }
+            h = h + " " + temp;
+        }
+
+        return h;
+
+    }
 
 
     /*@RequestMapping(value = "/upload")

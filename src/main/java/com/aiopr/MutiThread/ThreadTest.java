@@ -1,4 +1,4 @@
-package com.aiopr;
+package com.aiopr.MutiThread;
 
 
 import java.lang.reflect.Array;
@@ -35,7 +35,7 @@ public   class ThreadTest {
 
 
         System.out.println(
-                1^2
+                1^2^2//异或
         );
 
 
