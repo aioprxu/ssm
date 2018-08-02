@@ -14,7 +14,18 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by Administrator on 2018/1/31.
  */
-public class Main {}
+public class Main {
+    public static void main(String[] args) {
+        TestLambada testLambada = new TestLambada();
+        System.out.println(testLambada.useInterface(x->"sss"));
+    }
+
+}
+class TestLambada{
+    public String useInterface(Interface i){
+        return i.function(()->"this is lambda");
+    }
+}
 //    public static void main(String[] args) {
 //        AtomicInteger j = new AtomicInteger(5);
 //        Integer[] a = {2, 3, 4, 2, 5, 6, 6};

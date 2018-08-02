@@ -1,57 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38fb858c-e04d-427d-be4f-7b707db00461" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="" />
+    <list id="32db685c-fbdb-4ea4-8c17-77eaaa6ccd84" name="del devtestBranch" comment="del devtestBranch&#10;&#10;(cherry picked from commit 2838075)">
+      <changelist_data name="xushichao6" email="xushichao@jd.com" date="1532830217000">
+        <option name="date" value="1532830217000" />
+        <option name="email" value="xushichao@jd.com" />
+        <option name="name" value="xushichao6" />
+      </changelist_data>
+    </list>
+    <list default="true" id="38fb858c-e04d-427d-be4f-7b707db00461" name="Default" comment="add testlambda and compare.sorttest using jdk8">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/ThreadTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/MutiThread/ThreadTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/Norecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/Norecursive.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/niu.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/niu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/proxy/TestProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/proxy/TestProxy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/spring/controller/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/spring/controller/CategoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/application.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/application.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiopr/test.java" afterPath="$PROJECT_DIR$/src/main/java/com/aiopr/test.java" />
       <change beforePath="$PROJECT_DIR$/ssm.iml" afterPath="$PROJECT_DIR$/ssm.iml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Heap/MinHeap.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/Heap/MinHeap.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest$dataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest$dataSource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$1.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$SingleTonBuilder.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$SingleTonBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Test$S.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/ThreadTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Threada.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/AopTest.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/aop/AopTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/Norecursive.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/Norecursive.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang$1.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/hhh.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/hhh.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lock/MyLock.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/lock/MyLock.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client$1.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer$1.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server$1.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoC$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoC.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoClientHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoS$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoS$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoS.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/nettyecho/LocalEchoServerHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/MyProxy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/Solution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/T.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/T.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/TestProxy.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/TestProxy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/sort/HeapSort.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/sort/HeapSort.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/spring/controller/CategoryController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/tt.class" afterPath="$PROJECT_DIR$/target/classes/com/aiopr/tt.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/application.xml" afterPath="$PROJECT_DIR$/target/classes/spring/application.xml" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Heap/MaxHeap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Heap/MinHeap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest$dataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/JDBC/JdbcTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Mai.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Mainn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/Count.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/SafeCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/Test$S.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/ThreadTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/MutiThread/Threada.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon$SingleTonBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Single/SingleTon.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Solution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/TransientTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/Write.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/AopTest$listComparator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/AopTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/UserImp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/UserServiceImp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/aop/loggingAspect.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/BinaryTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/Norecursive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/Solution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/binarytree/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/B.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Callback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/CallbackTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Li.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/callback/Wang.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/customer/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/customer/Customer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/customer/CustomerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/customer/Producer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/customer/mall.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/hhh.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lamda/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lock/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lock/B.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lock/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/lock/MyLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HelloClientIntHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HelloServerInHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/HttpServerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/netty/Server.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/niu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/CGLIBProxy$MyProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/CGLIBProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/MyInvocationHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/T.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/TestProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/proxy/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/redis/RedisTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/redis/RedisTest1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/redis/RedisUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/redis/SecKill.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/socket/ClientTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/socket/SocketTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/software2/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/sort/ArrayGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/sort/HeapSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/sort/MergeSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/sort/QuickSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/controller/CategoryController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/mapper/CategoryMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/pojo/Category.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/service/CategoryService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/spring/service/CategoryServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/tes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aiopr/tt.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,42 +135,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/controller/CategoryController.java">
+      <file leaf-file-name="Interface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Interface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="64" column="59" lean-forward="false" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+            <state relative-caret-position="99">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Norecursive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/Norecursive.java">
+      <file leaf-file-name="AnotherInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/AnotherInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="99">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-982">
+              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/proxy/TestProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1881">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="niu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="niu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/niu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="6435">
               <caret line="201" column="44" lean-forward="false" selection-start-line="201" selection-start-column="44" selection-end-line="201" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,8 +185,8 @@
       <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="43" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="957">
+              <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +197,7 @@
       <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1208">
+            <state relative-caret-position="132">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,12 +206,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="178">
+              <caret line="154" column="38" lean-forward="false" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+              <folding>
+                <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1962#1963#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2129#2130#0" expanded="true" />
+                <element signature="e#2184#2185#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2407#2408#0" expanded="true" />
+                <element signature="e#2451#2452#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2528#2529#0" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="e#2653#2654#0" expanded="true" />
+                <element signature="e#2707#2708#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
+                <element signature="e#2895#2904#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,8 +243,8 @@
       <file leaf-file-name="SecKill.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/SecKill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="83" />
+            <state relative-caret-position="330">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -179,11 +253,10 @@
       <file leaf-file-name="RedisTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
+            <state relative-caret-position="1188">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#637#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,8 +265,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="221" column="6" lean-forward="true" selection-start-line="221" selection-start-column="6" selection-end-line="226" selection-end-column="19" />
+            <state relative-caret-position="7293">
+              <caret line="221" column="6" lean-forward="false" selection-start-line="221" selection-start-column="6" selection-end-line="226" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -209,8 +282,8 @@
         <option value="spring-beans.schema" />
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -220,7 +293,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -233,19 +312,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lock/MyLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lock/Main.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/aop/AopTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/ali.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/sort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/Heap/MaxHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/Heap/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/customer/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/callback/CallbackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/TransientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/software2/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/netty/HttpSessionManager.java" />
@@ -284,6 +358,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/binarytree/Norecursive.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/proxy/TestProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiopr/niu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/InterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Interface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/AnotherInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiopr/test.java" />
       </list>
     </option>
   </component>
@@ -318,7 +397,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -410,8 +489,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,6 +520,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aiopr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -451,8 +537,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aiopr" type="462c0819:PsiDirectoryNode" />
-              <item name="niu.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="lamda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
+              <item name="lamda" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aiopr" type="462c0819:PsiDirectoryNode" />
+              <item name="test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -473,8 +581,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,23 +592,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.aiopr.spring.service" />
-      <recent name="com.aiopr.netty" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\ssm\src\main\webapp\WEB-INF" />
       <recent name="D:\git\ssm\src\main\webapp" />
       <recent name="D:\git\ssm\src\main\resources" />
       <recent name="D:\git\ssm\src\main\spring" />
       <recent name="D:\git\ssm\src\main\java" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aiopr.lamda" />
+      <recent name="com.aiopr.spring.service" />
+      <recent name="com.aiopr.netty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -513,40 +624,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.tt">
+  <component name="RunManager" selected="Application.SortTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
       <option name="HEIGHT" value="0" />
       <module />
     </configuration>
-    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.aiopr.redis.*" />
+          <option name="PATTERN" value="com.aiopr.lamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.redis.RedisTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ssm" />
-      <envs />
-    </configuration>
-    <configuration name="SafeCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aiopr.MutiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aiopr.MutiThread.SafeCount" />
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.lamda.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -566,6 +658,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.aiopr.redis.SecKill" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ssm" />
+      <envs />
+    </configuration>
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.aiopr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.aiopr.SortTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -796,19 +907,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Maven.Jetty Debug" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SafeCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RedisTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RedisTest1.testStr" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SecKill" />
-      <item index="6" class="java.lang.String" itemvalue="Application.tt" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RedisTest1.testStr" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SecKill" />
+      <item index="4" class="java.lang.String" itemvalue="Application.tt" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SortTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.tt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SecKill" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RedisTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RedisTest1.testStr" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SafeCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SortTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.tt" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SecKill" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RedisTest1.testStr" />
       </list>
     </recent_temporary>
   </component>
@@ -913,8 +1024,38 @@
       <workItem from="1532341219693" duration="525000" />
       <workItem from="1532393227385" duration="13000" />
       <workItem from="1532497109480" duration="5574000" />
-      <workItem from="1532566671673" duration="17128000" />
+      <workItem from="1532566671673" duration="18388000" />
+      <workItem from="1532828422828" duration="2763000" />
+      <workItem from="1532915721389" duration="15000" />
+      <workItem from="1532999296446" duration="177000" />
+      <workItem from="1533000918737" duration="1444000" />
+      <workItem from="1533113543011" duration="2303000" />
+      <workItem from="1533115902724" duration="10000" />
+      <workItem from="1533194341821" duration="1377000" />
+      <workItem from="1533199477647" duration="2511000" />
     </task>
+    <task id="LOCAL-00001" summary="add testBranch">
+      <created>1532830124173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532830124173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="del devtestBranch">
+      <created>1532830217427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532830217427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="del testBranch">
+      <created>1532830373497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532830373497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -926,7 +1067,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329497000" />
+    <option name="totallyTimeSpent" value="341357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -938,37 +1079,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35963923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2864807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -982,11 +1123,36 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="me" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="3" value="183" />
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -1005,6 +1171,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add testBranch" />
+    <MESSAGE value="del devtestBranch" />
+    <MESSAGE value="del testBranch" />
+    <MESSAGE value="add testlambda and compare.sorttest using jdk8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testlambda and compare.sorttest using jdk8" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1022,7 +1195,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java</url>
-          <line>42</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
@@ -1034,7 +1207,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aiopr/test.java</url>
-          <line>55</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
@@ -1059,53 +1232,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.23.Final/netty-common-4.1.23.Final.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.23.Final/netty-common-4.1.23.Final.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.23.Final/netty-transport-4.1.23.Final.jar!/io/netty/channel/nio/NioEventLoopGroup.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/JDBC/JdbcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/socket/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoClientHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoServerHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoS.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/nettyecho/LocalEchoC.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/pojo/Speech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/SpeechService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/pojo/Speech.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/SpeechService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -1117,23 +1249,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/mapper/SpeechMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/mapper/SpeechMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,68 +1310,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/SpeechServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/service/SpeechServiceImpl.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/reflect/FastClass.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding>
-            <marker date="1532341308512" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532341308512" expanded="false" signature="157:635" ph="..." />
-            <marker date="1532341308512" expanded="true" signature="722:842" ph="{...}" />
-            <marker date="1532341308512" expanded="false" signature="879:890" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="907:913" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="961:972" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="1015:1021" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="1090:1250" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="1374:1457" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="1524:1624" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="1728:1805" ph="{...}" />
-            <marker date="1532341308512" expanded="false" signature="1853:1864" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="1900:1906" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="1974:1985" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2031:2037" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="2108:2324" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="2392:2612" ph="{...}" />
-            <marker date="1532341308512" expanded="false" signature="2641:2652" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2679:2685" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="2718:2729" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2746:2752" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="2782:2793" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2821:2827" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="2854:2865" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2893:2899" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="2937:3044" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="3549:3836" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="3903:5254" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4004:4019" ph=" { " />
-            <marker date="1532341308512" expanded="true" signature="4033:4043" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="4084:4099" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="4116:4126" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="4162:4291" ph="{...}" />
-            <marker date="1532341308512" expanded="false" signature="4346:4361" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="4395:4405" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="4474:4554" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4607:4856" ph="{...}" />
-            <marker date="1532341308512" expanded="false" signature="4912:4927" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="4943:4953" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="4970:5248" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,38 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <marker date="1532341308512" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532341308512" expanded="false" signature="155:629" ph="..." />
-            <marker date="1532341308512" expanded="true" signature="972:1209" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="1235:1910" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="1987:2257" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="2285:2292" ph="{}" />
-            <marker date="1532341308512" expanded="false" signature="2329:2340" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2357:2363" ph=" }" />
-            <marker date="1532341308512" expanded="false" signature="2397:2408" ph=" { " />
-            <marker date="1532341308512" expanded="false" signature="2435:2441" ph=" }" />
-            <marker date="1532341308512" expanded="true" signature="2474:2540" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="2571:2637" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="2673:2739" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="2803:3367" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="3438:3951" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4027:4296" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4334:4924" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4519:4918" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="4965:5093" ph="{...}" />
-            <marker date="1532341308512" expanded="true" signature="5076:5087" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/proxy/CGLIBProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,9 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2279">
           <caret line="88" column="40" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1329,9 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,9 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#1211#1212#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-803">
           <caret line="85" column="11" lean-forward="false" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="1315" column="34" lean-forward="true" selection-start-line="1315" selection-start-column="34" selection-end-line="1315" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,10 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="459" column="11" lean-forward="false" selection-start-line="459" selection-start-column="11" selection-end-line="459" selection-end-column="11" />
-          <folding>
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,15 +1420,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1001">
           <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/spring/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="1782">
           <caret line="64" column="59" lean-forward="false" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,51 +1434,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/testBranch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/devtestBranch.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="194" column="30" lean-forward="false" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12415">
+          <caret line="79" column="28" lean-forward="false" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/proxy/CGLIBProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/proxy/TestProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1881">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="33">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/niu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="6435">
+          <caret line="201" column="44" lean-forward="false" selection-start-line="201" selection-start-column="44" selection-end-line="201" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#637#653#0" expanded="true" />
+            <element signature="e#5184#5185#0" expanded="true" />
+            <element signature="e#5237#5238#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/SecKill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="221" column="6" lean-forward="true" selection-start-line="221" selection-start-column="6" selection-end-line="226" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="43" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="957">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1477,7 +1492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1208">
+        <state relative-caret-position="132">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1485,22 +1500,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/SecKill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/niu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/redis/RedisTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="201" column="44" lean-forward="false" selection-start-line="201" selection-start-column="44" selection-end-line="201" selection-end-column="44" />
+        <state relative-caret-position="1188">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5184#5185#0" expanded="true" />
-            <element signature="e#5237#5238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7293">
+          <caret line="221" column="6" lean-forward="false" selection-start-line="221" selection-start-column="6" selection-end-line="226" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/InterfaceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/AnotherInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/lamda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiopr/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="154" column="38" lean-forward="false" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+          <folding>
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2895#2904#0" expanded="true" />
           </folding>
         </state>
       </provider>
