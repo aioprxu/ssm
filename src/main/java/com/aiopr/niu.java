@@ -193,13 +193,4 @@ class hhh{
     }
 }
 
-class tt{
-    public static tt getclass(){
-        return new tt();
-    }
-
-    public static void main(String[] args) {
-        System.out.println(UUID.randomUUID());
-    }
-}
 

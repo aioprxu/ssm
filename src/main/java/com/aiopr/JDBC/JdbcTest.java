@@ -35,20 +35,23 @@ public class JdbcTest {
         }
 
     }
-    //实验用枚举来得到单例
-    enum dataSource{
-        DATA_SOURCE;
-        private Connection connection = null;
-        private dataSource() {
-            try {
-                connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306", "root", "123456");
-            }catch (SQLException e){
-                e.printStackTrace();
-            }
-        }
-        public Connection getConnection(){
-            return connection;
+
+
+
+
+}
+//实验用枚举来得到单例
+enum dataSource{
+    DATA_SOURCE;
+    private Connection connection = null;
+    private dataSource() {
+        try {
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306", "root", "123456");
+        }catch (SQLException e){
+            e.printStackTrace();
         }
     }
-
+    public Connection getConnection(){
+        return connection;
+    }
 }
