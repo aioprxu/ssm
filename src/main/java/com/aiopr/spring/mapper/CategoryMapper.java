@@ -6,6 +6,7 @@ import com.aiopr.spring.pojo.Category;
  * Created by Administrator on 2017/10/29.
  */
 import java.util.List;
+import java.util.Map;
 
 
 public interface CategoryMapper {
@@ -21,6 +22,8 @@ public interface CategoryMapper {
     public List<Category> list();
 
     public int count();
+
+    Map<String,String> getAll()throws Exception;
 
 
 }

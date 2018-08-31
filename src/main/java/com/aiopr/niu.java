@@ -1,6 +1,5 @@
 package com.aiopr;
 
-import com.sun.org.apache.bcel.internal.util.ClassSet;
 
 
 import java.util.*;
@@ -38,6 +37,15 @@ public class niu {
 
 class Mainn {
     public static void main(String[] args) {
+
+        String [] strings = {"ss","ssd"};
+        List<String> asList = Arrays.asList(strings);
+        List<String> list = new LinkedList<>(asList);
+        list.add(0,"aa");
+        System.out.println(list);
+        list.forEach(System.out::println);
+        System.out.println(list.stream().findFirst().get());
+
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         long arr[] = new long[n];

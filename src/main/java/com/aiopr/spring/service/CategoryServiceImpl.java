@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.aiopr.spring.pojo.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Administrator on 2017/10/29.
@@ -33,4 +34,6 @@ public class CategoryServiceImpl implements CategoryService {
     public void update(Category category){categoryMapper.update(category);}
 
     public Category get(Integer id){return categoryMapper.get(id);}
+
+    public Map<String,String> getAll()throws Exception{return categoryMapper.getAll();}
 }
