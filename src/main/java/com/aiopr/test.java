@@ -47,6 +47,7 @@ class Mai {
 
 class Main {
     public static void main(String[] args) {
+        System.out.println(0.06+0.05);
         Scanner in = new Scanner(System.in);
 
         int count = 0;

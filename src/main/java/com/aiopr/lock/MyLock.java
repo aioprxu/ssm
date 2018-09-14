@@ -16,10 +16,11 @@ public class MyLock implements Lock {
     private Thread threadby = null;
     @Override
     public synchronized void lock() {
-        if(lockflag == true && threadby != Thread.currentThread()){
+        if(lockflag && threadby != Thread.currentThread()){
             try {
                 wait();
             } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
         lockflag = true;
@@ -63,4 +64,29 @@ public class MyLock implements Lock {
 
 
 
+}
+
+
+class Test {
+    public static void main(String[] args) {
+        System.out.println("main");
+        Thread a = new Thread(()->{
+            try {
+                Thread.currentThread().join();
+                System.out.println("a");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        Thread b = new Thread(()->{
+            try {
+                Thread.currentThread().join();
+                System.out.println("b");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        b.start();
+        a.start();
+    }
 }

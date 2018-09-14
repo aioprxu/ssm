@@ -18,9 +18,8 @@
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <mvc:annotation-driven />
 
-    <mvc:default-servlet-handler />
+    <mvc:default-servlet-handler/>
 
     <mvc:interceptors>
         <mvc:interceptor>
@@ -29,6 +28,24 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+
+    <mvc:annotation-driven>
+        <mvc:message-converters
+                register-defaults="false">
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <!-- <value>text/html;charset=UTF-8</value> -->
+                        <value>application/json;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/"/>
+    <mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/"/>
+    <!--<import resource="classpath:application.xml" />-->
 
 
 
